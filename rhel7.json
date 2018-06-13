@@ -1,0 +1,13 @@
+{
+  "_comment": "Build with `packer build -var-file=rhel7.json centos.json`",
+  "vm_name": "rhel7",
+  "cpus": "1",
+  "disk_size": "65536",
+  "http_directory": "kickstart/centos7",
+  "iso_checksum": "d0dd6ae5e001fb050dafefdfd871e7e648b147fb2d35f0e106e0b34a0163e8f5",
+  "iso_checksum_type": "sha256",
+  "iso_name": "rhel-server-7.5-x86_64-dvd.iso",
+  "iso_url": "https://artifactory.company.com/OS_ISOs/rhel-server-7.5-x86_64-dvd.iso",
+  "memory": "1024",
+  "parallels_guest_os_type": "redhat7"
+}
